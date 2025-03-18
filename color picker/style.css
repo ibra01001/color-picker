@@ -1,0 +1,117 @@
+*{
+    text-align: start;
+    background-color:black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+input{
+    background-color: rgb(0, 0, 0);
+    
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+li{
+    list-style-type: none;
+    margin: 5px;
+}
+
+.copied-message {
+    font-size: 14px;
+    color: white;
+    background-color: #4CAF50;
+    padding: 3px 6px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 10px;
+    animation: fadeOut 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(-10px); }
+}
+
+span{
+    color: #ffffff;
+    cursor: pointer;
+}
+input[type="file"] {
+    display: none; /* Hide the default file input */
+}
+
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.custom-file-upload img {
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+    object-fit: cover;
+}
+.imgcolor{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.saved-colors{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+#clearAll{
+    transition-duration: 0.6s;
+}
+
+#clearAll:hover{
+    background-color: #df3333;
+    cursor: pointer;
+    font-size: larger;
+}
+.remove{
+    transition-duration: 0.6s;
+}
+
+.remove:hover{
+    background-color: #df3333;
+    cursor: pointer;
+    
+}
+
+#btn{
+    transition-duration: 0.6s;
+}
+
+#btn:hover{
+    background-color: #4CAF50;
+    cursor: pointer;
+    
+}
+
+li{
+    display: inline-block;
+}
